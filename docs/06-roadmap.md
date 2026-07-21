@@ -12,7 +12,7 @@
 
 ---
 
-## W0 — 토대 정립 (문서 · 설계의도 · AI 관점) 〔진행 중〕
+## W0 — 토대 정립 (문서 · 설계의도 · AI 관점) 〔완료 2026-07-21〕
 
 코드/CI를 건드리기 전에 "무엇을·왜·어디로"를 확정한다.
 
@@ -20,12 +20,13 @@
   - [x] `docs/00-overview` — 목적·범위·성공기준
   - [x] `docs/01-architecture-as-is` — 현재 구조 진단(ground truth)
   - [x] `docs/02-domain-approval` — 결재 설계의도
+  - [x] `docs/05-ai-anomaly-detection` — AI 이상탐지 설계(차별화)
   - [x] `docs/adr/0001` (ADR 관례), `0002` (Rich Domain)
   - [x] `docs/06-roadmap` (이 문서)
-  - [ ] `docs/03-concurrency`, `04-resilience`, `05-ai-anomaly-detection`
-  - [ ] `CLAUDE.md` 최종 확정(이미 존재 → 보완)
-  - [ ] `00` §4 성공 기준 수치 확정
-- 검증: docs/가 리팩토링의 ground truth로 성립(스스로 읽어 큰 그림이 잡힘).
+  - [x] `CLAUDE.md` 최종 확정(docs/ ground truth 연결 추가)
+  - [~] `docs/03-concurrency`, `04-resilience` → W4/W5 구현 시점에 작성(의도적 연기)
+  - [~] `00` §4 성공 기준 수치 → W1/W7 실측 후 확정(의도적 연기)
+- 검증: docs/가 리팩토링의 ground truth로 성립(스스로 읽어 큰 그림이 잡힘). ✅
 
 ## W1 — 안전망 (특성화 테스트 + CI 그린)
 

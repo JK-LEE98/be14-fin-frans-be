@@ -9,6 +9,7 @@ LLM 코딩 실수를 줄이기 위한 행동 지침. 프로젝트 규약과 함�
 - 아키텍처: **CQRS** — command는 JPA, query는 MyBatis(`Mapper.xml`).
 - 목표: 6인 팀 프로젝트를 **단독 리팩토링**해 도메인 설계·동시성·회복탄력성·AI 활용을 증명.
 - 주석·커밋·문서는 한국어. 기존 패키지 컨벤션(`domain/command/query`) 유지.
+- **설계 ground truth는 `docs/`**: 작업 전 관련 문서(`00`~`06`, `adr/`)를 먼저 읽고 그에 맞춘다. 설계 결정은 `docs/adr/`에 기록한다.
 
 ## 1. Think Before Coding
 
